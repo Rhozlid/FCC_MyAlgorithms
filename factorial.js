@@ -2,7 +2,6 @@
 function factorialize(num) {
     var final = num;
     for(var i = 1; i < final; i++) {
-        //console.log(num);
         num*=i;
     }
     
@@ -10,4 +9,4 @@ function factorialize(num) {
 }
 
 // must return 120
-console.log(factorialize(10));
+console.log(factorialize(5));
